@@ -1,0 +1,58 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Penggunaan dasar multi autentikasi dengan codeigneter 3 · Codeigneter 3</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Ditungguu yaa :D"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Penggunaan dasar multi autentikasi dengan codeigneter 3 · Codeigneter 3"/><meta property="og:type" content="website"/><meta property="og:url" content="https://azmanabdullah.github.io/skripsi/learnblog/2020/06/11/multi-authentication"/><meta property="og:description" content="Ditungguu yaa :D"/><meta property="og:image" content="https://azmanabdullah.github.io/skripsi/learn/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://azmanabdullah.github.io/skripsi/learn/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/skripsi/learnimg/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://azmanabdullah.github.io/skripsi/learn/blog/atom.xml" title="Codeigneter 3 Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://azmanabdullah.github.io/skripsi/learn/blog/feed.xml" title="Codeigneter 3 Blog RSS Feed"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&amp;family=Quicksand:wght@400;500;600;700&amp;display=swap"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/skripsi/learnjs/scrollSpy.js"></script><link rel="stylesheet" href="/skripsi/learncss/main.css"/><script src="/skripsi/learnjs/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/skripsi/learn"><img class="logo" src="/skripsi/learnimg/react.png" alt="Codeigneter 3"/></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/skripsi/learndocs/start" target="_self">Explorasi</a></li><li class="siteNavGroupActive"><a href="/skripsi/learnblog/" target="_self">Contoh implementasi</a></li><li class=""><a href="/skripsi/learnkontak" target="_self">Kontak</a></li><li class=""><a target="_self"></a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Recent Posts</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Recent Posts</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/skripsi/learnblog/2020/06/11/multi-authentication">Penggunaan dasar multi autentikasi dengan codeigneter 3</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/skripsi/learnblog/2020/06/11/multi-authentication">Penggunaan dasar multi autentikasi dengan codeigneter 3</a></h1><p class="post-meta">June 11, 2020</p><div class="authorBlock"><p class="post-authorName"><a href="https://avatars3.githubusercontent.com/u/34862893?s=460&amp;u=0715bafc96e0c1aa3488be2ec3fd8e675fb8926cv=4" target="_blank" rel="noreferrer noopener">Azman abdlh</a></p><div class="authorPhoto"><a href="https://avatars3.githubusercontent.com/u/34862893?s=460&amp;u=0715bafc96e0c1aa3488be2ec3fd8e675fb8926cv=4" target="_blank" rel="noreferrer noopener"><img src="https://graph.facebook.com/661277173/picture/?height=200&amp;width=200" alt="Azman abdlh"/></a></div></div></header><div><span><p>Ditungguu yaa :D</p>
+</span></div></div><div class="blogSocialSection"></div></div><div class="blog-recent"><a class="button" href="/skripsi/learnblog/">Recent Posts</a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><a href="https://opensource.facebook.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/skripsi/learnimg/stikom.png" alt="Facebook Open Source" width="130" height="45"/></a><section class="copyright">Copyright © 2020 Azman abdullah by Docusaurus 🦖</section></footer></div></body></html>

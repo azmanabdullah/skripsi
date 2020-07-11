@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://azmanabdullah.github.io/skripsi/learnblog</id>
+    <title>Codeigneter 3 Blog</title>
+    <updated>2020-06-11T06:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://azmanabdullah.github.io/skripsi/learnblog"/>
+    <subtitle>The best place to stay up-to-date with the latest Codeigneter 3 news and events.</subtitle>
+    <logo>https://azmanabdullah.github.io/skripsi/learnimg/react.png</logo>
+    <rights>Copyright © 2020 Azman abdullah by Docusaurus 🦖</rights>
+    <entry>
+        <title type="html"><![CDATA[Penggunaan dasar multi autentikasi dengan codeigneter 3]]></title>
+        <id>https://azmanabdullah.github.io/skripsi/learnblog/2020/06/11/multi-authentication.html</id>
+        <link href="https://azmanabdullah.github.io/skripsi/learnblog/2020/06/11/multi-authentication.html"/>
+        <updated>2020-06-11T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Ditungguu yaa :D</p> ]]></summary>
+        <author>
+            <name>Azman abdlh</name>
+            <uri>https://avatars3.githubusercontent.com/u/34862893?s=460&amp;u=0715bafc96e0c1aa3488be2ec3fd8e675fb8926cv=4</uri>
+        </author>
+    </entry>
+</feed>
