@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://azmanabdullah.github.io/tib6/blog</id>
+    <id>https://azmanabdullah.github.io/skripsi/blog</id>
     <title>Codeigneter 3 Blog</title>
     <updated>2020-06-11T06:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://azmanabdullah.github.io/tib6/blog"/>
+    <link rel="alternate" href="https://azmanabdullah.github.io/skripsi/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Codeigneter 3 news and events.</subtitle>
-    <logo>https://azmanabdullah.github.io/tib6/img/react.png</logo>
+    <logo>https://azmanabdullah.github.io/skripsi/img/react.png</logo>
     <rights>Copyright © 2020 Azman abdullah by Docusaurus 🦖</rights>
     <entry>
         <title type="html"><![CDATA[Penggunaan dasar multi autentikasi dengan codeigneter 3]]></title>
-        <id>https://azmanabdullah.github.io/tib6/blog/2020/06/11/multi-authentication.html</id>
-        <link href="https://azmanabdullah.github.io/tib6/blog/2020/06/11/multi-authentication.html"/>
+        <id>https://azmanabdullah.github.io/skripsi/blog/2020/06/11/multi-authentication.html</id>
+        <link href="https://azmanabdullah.github.io/skripsi/blog/2020/06/11/multi-authentication.html"/>
         <updated>2020-06-11T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>Ditungguu yaa :D</p> ]]></summary>
         <author>
