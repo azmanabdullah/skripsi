@@ -1,1 +1,1 @@
-# skripsi
+# Daftar list/dokumentasi skripsi
